@@ -1,0 +1,38 @@
+$orange : #e67e22;
+
+#search-ip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ip-text{
+    font-size: 2rem;
+    color: white;
+}
+
+.btn-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background-color: white;
+    border-color: white;
+    color: $orange;
+    padding: 10px 20px;
+    border-radius: .3em;
+    cursor: pointer;
+    display: block;
+    
+    &:hover{
+        background-color: $orange;
+        border-color: $orange;
+        color: white;
+    }
+
+    &:focus{
+        outline: 0;
+    }
+}
+
